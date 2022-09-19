@@ -1,5 +1,11 @@
+:root{
+  --bg-col: rgb(11,0,69);
+  --text-col: red;
+}
+
 .App {
   text-align: center;
+  
 }
 
 .App-logo {
