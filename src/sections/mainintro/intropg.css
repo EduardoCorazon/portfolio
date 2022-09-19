@@ -1,0 +1,131 @@
+/*FOR INTRODUCTION*/
+.introduction{
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 95rem;
+    padding-right: 1.25rem;
+    padding-left: 1.25rem;
+    display: flex;
+    justify-content: center;    
+}
+
+.introcontainer{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 24vh;
+    width: 100vmin;
+}
+
+.faceshot{
+    border-radius: 50%;
+    width: 40%;
+    height: 40%;
+    border: var(--text-col) solid;
+    margin-right: 1vmin;
+}
+
+.quote{
+    margin: auto;
+    color: var(--text-col);
+    font-weight: 800;
+    font-family: Sequel, sans-serif;
+    text-transform: uppercase;
+    line-height: 0.9;
+    display: block;
+    font-size: 4.50vmin;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.line{
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    opacity: 1;
+}
+
+.rootcontainer{
+    /*OG*/
+    width: 9ch;
+    width: 6.7ch;
+    display: block;
+    word-break: break-all;
+}
+
+.rootintro{
+    overflow: hidden;
+    color: coral;
+    border-right: .15em solid green;
+    white-space: nowrap;
+    animation: typing 2.5s steps(20, end) forwards, blinking .8s infinite;
+    text-transform: none;
+    /*OG*/
+    font: 4vmin Inconsolata, monospace;
+    font: 3vmin Inconsolata, monospace;
+    width: 0;
+    text-decoration: none;
+    margin-top: 5px;
+    display: block;
+}
+
+.rootcontainer:hover {
+    animation: typing2 .25s steps(20, end) forwards, fadein 0.1s;;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+@keyframes typing2 {
+    from {width: 6.7ch;}
+    to {width: 16.5ch;}
+}
+
+@keyframes blinking {
+    from { border-color: transparent }
+    to { border-color: green; }
+}
+
+/*FOR ARROW*/
+
+.scrolldown {
+    position: absolute;
+    bottom: 6.25rem;
+    left: 50%;
+    transform: translate(-50%);
+
+    
+}
+
+.boxscroll{
+    padding: 20px 100px;
+    transition: opacity 1s ease 0s;
+}
+
+.arrowcase{
+    width: 2px;
+    height: 35px;
+    background: var(--bg-col);
+    overflow: hidden;
+}
+
+.arrow{
+    width: 1vmin;
+    background: currentcolor;
+    color: var(--text-col);
+    animation: 2s cubic-bezier(0.8, 0, 0.2, 1) 0s infinite normal none running uwu;
+}
+
+@keyframes uwu {
+    0%{
+        height: 0px;
+    }
+    50%{
+        height: 35px;
+    }
+    100%{
+        transform: translateY(35px);
+    }
+}
