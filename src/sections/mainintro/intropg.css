@@ -44,6 +44,7 @@
 .line{
     transform: matrix(1, 0, 0, 1, 0, 0);
     opacity: 1;
+    text-align: left;
 }
 
 .rootcontainer{
