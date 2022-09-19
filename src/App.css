@@ -1,10 +1,30 @@
 :root{
   --bg-col: rgb(11,0,69);
-  --text-col: red;
+  --text-col: white;
+}
+
+.whiteout{
+  --bg-col: white;
+  --text-col: black; 
+}
+.blackout{
+  --bg--col: rgb(11,0,69);
+  --text-col: white;
 }
 
 .App {
   text-align: center;
+  margin: 0;
+    font: bold 14px/1.4 'Open Sans', arial, sans-serif;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    
+    min-height: 550px;
+    height: calc(100vh - 60px);
+    
+    position: relative;
+    background-color: var(--bg-col);
   
 }
 

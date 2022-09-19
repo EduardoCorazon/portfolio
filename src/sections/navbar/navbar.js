@@ -4,7 +4,7 @@ function Navbar() {
     <div className="navbar">
         <ul className="navlist">
             <li className="navbox"><a className="underline" href="#about">About</a></li>
-            <li className="navbox"><a className="underline" href="#portfolio">Portfolio</a></li>
+            <li className="navbox"><a className="underline" href="#portfolio">Skills</a></li>
             <li className="navbox"><a className="underline" href="#projects">Projects</a></li>
             <li className="navbox"><a className="underline" href="#contact">Contact</a></li>
         </ul>
