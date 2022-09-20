@@ -40,7 +40,6 @@
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 }
-
 .line{
     transform: matrix(1, 0, 0, 1, 0, 0);
     opacity: 1;

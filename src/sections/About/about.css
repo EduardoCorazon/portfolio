@@ -17,6 +17,17 @@
     color: var(--text-col);
 }
 
+.certcontainer{
+    margin-top: 80vmin;
+    
+    background-color: red;
+}
+.certifications{
+    background-color: green;
+    
+}
+
+
 .fullbgleftinit{
     
     width: 70vmin;
