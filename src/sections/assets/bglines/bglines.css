@@ -13,8 +13,15 @@
     width: 100%;
     height: 31vmin;
     margin-right: 0;
+
     position: absolute;
+    position: relative;
     color: transparent;
     transform: skewY(-11deg);
     z-index: 1;
+}
+
+.bglines{
+    background-color: var(--bg--col);
+    
 }

@@ -1,7 +1,7 @@
 import './bglines.css'
 function Custombg() {
     return (
-      <div>
+      <div className='bglines'>
         <div className='diagonalboxtop'/>
         <div className='diagonalbox'/>
       </div>

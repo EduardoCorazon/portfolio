@@ -14,9 +14,11 @@
     left: 0;
     padding: 1.25rem;
     color: transparent;
+    
 
   }
   
+
   .navlist { 
     margin: 10px auto 0; 
     padding: 0; 
@@ -26,7 +28,8 @@
     text-align: center;
   }
   .navbox { 
-    display: table-cell; 
+    display: table-cell;
+ 
     position: relative; 
     padding: 15px 0;
   }

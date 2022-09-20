@@ -44,6 +44,10 @@
   pointer-events: none;
 }
 
+
+
+
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -78,3 +82,4 @@
   from { opacity: 0; };
   to   { opacity: 1; };
 }
+
