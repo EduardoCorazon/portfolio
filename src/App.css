@@ -3,6 +3,14 @@
   --text-col: white;
 }
 
+
+
+.test123{
+  --bg-col: black;
+  --text-col: white; 
+}
+
+
 .whiteout{
   --bg-col: white;
   --text-col: black; 

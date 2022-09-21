@@ -17,13 +17,18 @@
     color: var(--text-col);
 }
 
-.certcontainer{
-    margin-top: 80vmin;
-    
-    background-color: red;
-}
+
+
+
 .certifications{
-    background-color: green;
+    top: 36vmin;
+    right: 48vmin;
+    /*border: solid red 5px;*/
+    height: auto; 
+    width: auto; 
+    max-width: 25vmin; 
+    max-height: 25vmin;
+    position: relative;
     
 }
 

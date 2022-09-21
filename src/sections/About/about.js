@@ -3,6 +3,7 @@ function About() {
     return (
       <div>
         <div className='aboutcontainer'>
+          
         <div className ='fullbgleftinit'>
           <h1 className='abouttitle' id='about'>A little bit about me...</h1>
           <div className='aboutcontent'>
@@ -17,21 +18,16 @@ function About() {
               <a color='red'href="https://eduardocorazon.github.io/my-portfolio/">https://eduardocorazon.github.io/my-portfolio/</a>
             </p>
             </div>
+            <a href='https://www.credly.com/badges/bd9e1020-6a65-4ebe-83c0-5c759a41f5e2/public_url'>
+              <img className='certifications' src={require('./CompTIA_Security_2Bce.png')} alt="you can click here to check my credential status" />
+            </a>
             
 
           </div>
         </div>
         <div className='tra1'/>
-
-      
-
-
-
-        <div className='containercert'>
-              <div className='certifications'>
-                <img src={require('./CompTIA_Security_2Bce.png')} alt="not found" />
-              </div>
-            </div>
+        
+        
 
       </div>
 

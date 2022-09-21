@@ -1,0 +1,15 @@
+.skillscontainer{
+    margin: 0;
+    font: bold 14px/1.4 'Open Sans', arial, sans-serif;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    
+    min-height: 550px;
+    height: calc(150vh - 60px);
+    
+    position: relative;
+    background-color: var(--bg-col);
+    
+    color: var(--text-col);
+}
