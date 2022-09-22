@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.c1692e18.css",
-    "main.js": "/portfolio/static/js/main.e783a055.js",
+    "main.css": "/portfolio/static/css/main.a79462e5.css",
+    "main.js": "/portfolio/static/js/main.1cc680ce.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/FaceShot.jpg": "/portfolio/static/media/FaceShot.edb66c7f8baf16e7deda.jpg",
+    "static/media/CompTIA_Security_2Bce.png": "/portfolio/static/media/CompTIA_Security_2Bce.06988e26a1519a88f895.png",
     "index.html": "/portfolio/index.html",
-    "main.c1692e18.css.map": "/portfolio/static/css/main.c1692e18.css.map",
-    "main.e783a055.js.map": "/portfolio/static/js/main.e783a055.js.map",
+    "main.a79462e5.css.map": "/portfolio/static/css/main.a79462e5.css.map",
+    "main.1cc680ce.js.map": "/portfolio/static/js/main.1cc680ce.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c1692e18.css",
-    "static/js/main.e783a055.js"
+    "static/css/main.a79462e5.css",
+    "static/js/main.1cc680ce.js"
   ]
 }
