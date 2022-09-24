@@ -3,8 +3,10 @@ function About() {
     return (
       <div>
         <div className='aboutcontainer'>
-          
+         <div className='bghold'/> 
         <div className ='fullbgleftinit'>
+          
+
           <h1 className='abouttitle' id='about'>A little bit about me...</h1>
           <div className='aboutcontent'>
             <div className='abouttext'>

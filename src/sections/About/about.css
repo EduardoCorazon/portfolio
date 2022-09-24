@@ -12,7 +12,8 @@
     height: calc(150vh - 60px);
     
     position: relative;
-    background-color: var(--bg-col);
+    
+    
     
     color: var(--text-col);
 }
@@ -43,8 +44,28 @@
 
     box-shadow: 0px 1px 10px black;
     z-index: 2;
+    height: 53vmin;
     
 }
+
+.bghold{
+    
+    z-index: 0;
+    top: 0;
+    width: 70vmin;
+    height: 53vmin;
+
+    background-color: rgb(11,0,69);
+    width: 70vmin;
+    margin-right: 0;
+    position: absolute;
+    top: 10%;
+    top: 32vmin;
+
+    
+    z-index: 0;
+}
+
 
 
 .abouttitle{
@@ -52,7 +73,7 @@
     font-weight: 800;
     font-family: Sequel, sans-serif;
     line-height: 0.9;
-    font-size: 3em;    
+    font-size: 3.3vmin;    
     position: relative;
     
 
@@ -85,7 +106,7 @@
     color: var(--text-col);
     text-align: left;   
     margin-left: 10%;
-    background-color: var(--bg-col);
+    background-color: rgb(11,0,69);
     width: 100%;
     border-radius: 25px;
     margin-right: 50%;

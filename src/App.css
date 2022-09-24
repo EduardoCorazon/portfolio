@@ -5,20 +5,44 @@
 
 
 
-.test123{
-  --bg-col: black;
-  --text-col: white; 
+
+
+.stars{
+  background: transparent;
+  
+  margin: 0;
+  padding: 0;
+  z-index: -100;
+  position: relative;
+  
+}
+.mainbg{
+  width: 100%;
+  height: 100%;
+  position: fixed;
 }
 
 
-.whiteout{
-  --bg-col: white;
-  --text-col: black; 
+
+.websitecontainer{
+  background-color: var(--bg-col);
 }
-.blackout{
-  --bg--col: rgb(11,0,69);
+
+.navyout{
+  --bg-col: rgb(11,0,69);
   --text-col: white;
 }
+.whiteout{
+  --bg-col: white;
+  --text-col: black;
+}
+.blackout{
+  --bg-col: #12071F;
+  --text-col: white;
+}
+
+
+
 
 *{
   scroll-behavior: smooth;
@@ -43,7 +67,6 @@
   height: calc(100vh - 60px);
     
   position: relative;
-  background-color: var(--bg-col);
   
 }
 

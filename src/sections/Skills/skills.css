@@ -9,7 +9,21 @@
     height: calc(150vh - 60px);
     
     position: relative;
-    background-color: var(--bg-col);
-    
     color: var(--text-col);
+    border: solid red;
+}
+.titlecontainer{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    color: #ffcc70;
+    
+
+}
+.skcontainer{
+    width: 100%;
+    position: relative;
+    top: 0;
+    border: solid red;
 }
