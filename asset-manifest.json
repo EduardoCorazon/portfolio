@@ -1,17 +1,23 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.9be221cc.css",
-    "main.js": "/portfolio/static/js/main.8f4c2059.js",
+    "main.css": "/portfolio/static/css/main.31d33716.css",
+    "main.js": "/portfolio/static/js/main.21e50098.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/FaceShot.jpg": "/portfolio/static/media/FaceShot.edb66c7f8baf16e7deda.jpg",
+    "static/media/React-icon.png": "/portfolio/static/media/React-icon.81ed438b18e24116794d.png",
+    "static/media/Python.png": "/portfolio/static/media/Python.15a5cabe79820db8855a.png",
+    "static/media/hardware.jpg": "/portfolio/static/media/hardware.b39792b53c27f3fa1dd5.jpg",
     "static/media/CompTIA_Security_2Bce.png": "/portfolio/static/media/CompTIA_Security_2Bce.06988e26a1519a88f895.png",
+    "static/media/THMprofile.png": "/portfolio/static/media/THMprofile.8211e636b71a61b5b440.png",
+    "static/media/THM.png": "/portfolio/static/media/THM.e639958c35720df87284.png",
+    "static/media/vmix.png": "/portfolio/static/media/vmix.b7684f71963798f7aaf6.png",
     "index.html": "/portfolio/index.html",
-    "main.9be221cc.css.map": "/portfolio/static/css/main.9be221cc.css.map",
-    "main.8f4c2059.js.map": "/portfolio/static/js/main.8f4c2059.js.map",
+    "main.31d33716.css.map": "/portfolio/static/css/main.31d33716.css.map",
+    "main.21e50098.js.map": "/portfolio/static/js/main.21e50098.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9be221cc.css",
-    "static/js/main.8f4c2059.js"
+    "static/css/main.31d33716.css",
+    "static/js/main.21e50098.js"
   ]
 }
