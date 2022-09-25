@@ -13,6 +13,12 @@ import Skills from './sections/Skills/skills';
 import { Canvas, useFrame } from '@react-three/fiber'
 import { Points, PointMaterial } from '@react-three/drei'
 import * as random from 'maath/random/dist/maath-random.esm'
+import Projects from './sections/Projects/projects';
+import Contact from './sections/contact/contact';
+
+
+
+
 
 function Stars(props) {
   const ref = useRef()
@@ -38,7 +44,20 @@ function App() {
   //sets the colorswitch state
   const [colorswitch, setcolorswitch] = useState(false);
   //if scroll mroe than 80px colorswitch is true thus "blackout" is applied and vice versa
-  const changeColor = () =>{ window.scrollY >=80 ? setcolorswitch(true) : setcolorswitch(false)}
+
+
+  function changeColor(){
+    if (window.scrollY >=80){
+      setcolorswitch(true);
+      document.querySelector('.stars').style.opacity = '100%';
+      
+    }
+    else{
+      setcolorswitch(false);
+      document.querySelector('.stars').style.opacity = '0%';
+    }
+  }
+
   window.addEventListener('scroll', changeColor);
 
   // <div className={colorswitch ? 'navyout': 'blackout'}>
@@ -49,6 +68,7 @@ function App() {
   //for second color change
   const [colorswitch2, setcolorswitch2] = useState(false);
   const changeColor2 = () =>{ window.scrollY >=2200 ? setcolorswitch2(true) : setcolorswitch2(false)}
+  
   window.addEventListener('scroll', changeColor2);
   
 
@@ -57,12 +77,12 @@ function App() {
 
     
 
-      
+
         
       
 
-
-    <div className={colorswitch2 ? 'blackout': 'navyout'}>
+    
+    <div className={colorswitch ? 'navyout': 'whiteout'}>
 
       
     <div className='mainbg'>
@@ -77,7 +97,7 @@ function App() {
     
           
         <header className='App'>
-          <Navbar/>
+          
           <Intropg/>
           
         </header>
@@ -88,9 +108,15 @@ function App() {
 
 
 
-        <div className={colorswitch2 ? 'test123': 'blackout'}>
+        <div className={colorswitch2 ? 'blackout': 'navyout'}>
+        <div className='websitecontainer'>
+        <Navbar/>
+          
         <About/>
         <Skills/>
+        <Projects/>
+        <Contact/>
+        </div>
         
 
         </div>

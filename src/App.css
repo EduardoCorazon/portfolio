@@ -38,7 +38,7 @@
 }
 .blackout{
   --bg-col: #12071F;
-  --text-col: white;
+  --text-col: #ffcc70;
 }
 
 
@@ -53,7 +53,16 @@
   -ms-animation: fadein 2s; /* Internet Explorer */
   -o-animation: fadein 2s; /* Opera < 12.1 */
   animation: fadein 2s;
+
+  -ms-overflow-style: none;
 }
+
+/*hide scrollbar*/
+::-webkit-scrollbar {
+  display: none;
+}
+
+
 
 .App {
   text-align: center;
@@ -70,10 +79,7 @@
   
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+
 
 
 

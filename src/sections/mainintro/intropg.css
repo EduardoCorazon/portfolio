@@ -57,7 +57,7 @@
 .rootintro{
     overflow: hidden;
     color: coral;
-    border-right: .15em solid green;
+    border-right: .15em solid #ffcc70;
     white-space: nowrap;
     animation: typing 2.5s steps(20, end) forwards, blinking .8s infinite;
     text-transform: none;
@@ -68,6 +68,7 @@
     text-decoration: none;
     margin-top: 5px;
     display: block;
+    cursor: default;
 }
 
 .rootcontainer:hover {
@@ -85,7 +86,7 @@
 
 @keyframes blinking {
     from { border-color: transparent }
-    to { border-color: green; }
+    to { border-color: #c850c0; }
 }
 
 /*FOR ARROW*/

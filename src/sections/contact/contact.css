@@ -1,0 +1,47 @@
+.contactcontainer{
+    margin: 0;
+    font: bold 14px/1.4 'Open Sans', arial, sans-serif;
+    display: flex;
+    -webkit-box-align: center;
+    /*align-items: center;*/
+    min-height: 550px;
+    height: calc(90vh - 60px);
+    position: relative;
+    
+    
+}
+.socialscontainer{
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    color: var(--text-col);
+}
+
+.contactitle{
+    color: var(--text-col);
+    font-weight: 800;
+    font-family: Sequel, sans-serif;
+    text-transform: uppercase;
+    line-height: 0.9;
+    font-size: 3.3vmin;    
+    position: relative;
+    
+    width: 100%;
+    text-decoration: underline;
+    text-align: center;
+
+}
+.socials{
+    font-size: 3vmin;
+    text-decoration: none;
+    color: var(--text-col);
+    
+}
+.socials:hover{
+    color: #c850c0;
+    
+}
+.socialimg{
+    width: 3vmin;
+    height: 3vmin;
+}
