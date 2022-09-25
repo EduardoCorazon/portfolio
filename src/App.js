@@ -67,7 +67,8 @@ function App() {
 
   //for second color change
   const [colorswitch2, setcolorswitch2] = useState(false);
-  const changeColor2 = () =>{ window.scrollY >=2200 ? setcolorswitch2(true) : setcolorswitch2(false)}
+  const changeColor2 = () =>{ window.scrollY >=1000 ? setcolorswitch2(true) : setcolorswitch2(false)}
+  //og 2200
   
   window.addEventListener('scroll', changeColor2);
   
