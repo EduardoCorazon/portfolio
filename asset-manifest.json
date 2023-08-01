@@ -1,23 +1,33 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.31d33716.css",
-    "main.js": "/portfolio/static/js/main.81d7c715.js",
+    "main.css": "/portfolio/static/css/main.b3a5f39b.css",
+    "main.js": "/portfolio/static/js/main.ea9cece2.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/IAMCTF.png": "/portfolio/static/media/IAMCTF.617acdeef4d5b9a94dbe.png",
     "static/media/FaceShot.jpg": "/portfolio/static/media/FaceShot.edb66c7f8baf16e7deda.jpg",
     "static/media/React-icon.png": "/portfolio/static/media/React-icon.81ed438b18e24116794d.png",
     "static/media/Python.png": "/portfolio/static/media/Python.15a5cabe79820db8855a.png",
+    "static/media/Ghidra.png": "/portfolio/static/media/Ghidra.c9dc7d4c0bead77ea051.png",
+    "static/media/SAA.png": "/portfolio/static/media/SAA.22576f263fbae6620043.png",
+    "static/media/CCP.png": "/portfolio/static/media/CCP.20b5425c694a3e79717b.png",
+    "static/media/CompTIA_CNVP.png": "/portfolio/static/media/CompTIA_CNVP.01be055909fafd1f9e20.png",
+    "static/media/Azure.png": "/portfolio/static/media/Azure.84188eee8da867b0d07e.png",
+    "static/media/CompTIA_PenTest_2B.png": "/portfolio/static/media/CompTIA_PenTest_2B.0689e25cbf012caf8bdc.png",
     "static/media/hardware.jpg": "/portfolio/static/media/hardware.b39792b53c27f3fa1dd5.jpg",
+    "static/media/AWSDR.png": "/portfolio/static/media/AWSDR.8676a0b2861d676001b4.png",
     "static/media/CompTIA_Security_2Bce.png": "/portfolio/static/media/CompTIA_Security_2Bce.06988e26a1519a88f895.png",
-    "static/media/THMprofile.png": "/portfolio/static/media/THMprofile.8211e636b71a61b5b440.png",
+    "static/media/MercenaryHarpy6.png": "/portfolio/static/media/MercenaryHarpy6.f75d76134b41e788e78d.png",
     "static/media/THM.png": "/portfolio/static/media/THM.e639958c35720df87284.png",
+    "static/media/CEHPRACTICAL_5FB43496785F.png": "/portfolio/static/media/CEHPRACTICAL_5FB43496785F.fd7b4dc0923d8defe58a.png",
     "static/media/vmix.png": "/portfolio/static/media/vmix.b7684f71963798f7aaf6.png",
+    "static/media/AWS.jpg": "/portfolio/static/media/AWS.155b618089c644f1b9ef.jpg",
     "index.html": "/portfolio/index.html",
-    "main.31d33716.css.map": "/portfolio/static/css/main.31d33716.css.map",
-    "main.81d7c715.js.map": "/portfolio/static/js/main.81d7c715.js.map",
+    "main.b3a5f39b.css.map": "/portfolio/static/css/main.b3a5f39b.css.map",
+    "main.ea9cece2.js.map": "/portfolio/static/js/main.ea9cece2.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.31d33716.css",
-    "static/js/main.81d7c715.js"
+    "static/css/main.b3a5f39b.css",
+    "static/js/main.ea9cece2.js"
   ]
 }
