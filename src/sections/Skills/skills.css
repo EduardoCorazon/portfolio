@@ -6,7 +6,11 @@
     align-items: center;
     
     min-height: 550px;
+<<<<<<< HEAD
     height: calc(190vh - 60px); /*og 150vh - 60px */
+=======
+    height: calc(150vh - 60px);
+>>>>>>> f50820a0fcbfadba3e3695fd2d2c06eb4cbc3845
     
     position: relative;
     color: var(--text-col);
@@ -111,6 +115,7 @@
     
 }
 
+<<<<<<< HEAD
 
 
 
@@ -293,6 +298,8 @@
 
 
 
+=======
+>>>>>>> f50820a0fcbfadba3e3695fd2d2c06eb4cbc3845
 /* FOR TRYHACKME ACTIVITY*/
 .Virtualizationcontainer{
     grid-column: 2/2;

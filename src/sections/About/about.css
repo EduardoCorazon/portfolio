@@ -19,6 +19,7 @@
 }
 
 
+<<<<<<< HEAD
 .cert-grid {
     display: grid;
     grid-template-rows: repeat(3, 1fr); /* Set 3 rows in the grid */
@@ -36,6 +37,22 @@
     position: relative;
   }
   
+=======
+
+
+.certifications{
+    top: 36vmin;
+    right: 48vmin;
+    /*border: solid red 5px;*/
+    height: auto; 
+    width: auto; 
+    max-width: 25vmin; 
+    max-height: 25vmin;
+    position: relative;
+    
+}
+
+>>>>>>> f50820a0fcbfadba3e3695fd2d2c06eb4cbc3845
 
 
 .fullbgleftinit{
@@ -72,11 +89,16 @@
 
 
 
+<<<<<<< HEAD
 .abouttitle {
+=======
+.abouttitle{
+>>>>>>> f50820a0fcbfadba3e3695fd2d2c06eb4cbc3845
     color: var(--text-col);
     font-weight: 800;
     font-family: Sequel, sans-serif;
     line-height: 0.9;
+<<<<<<< HEAD
     font-size: 3.3vmin;
     text-align: center;
 }
@@ -110,6 +132,63 @@
     padding: 1vmin 2vmin;
     width: 43.5vmin;
     height: 30vmin;
+=======
+    font-size: 3.3vmin;    
+    position: relative;
+    
+
+    
+    width: 100%;
+    text-align: center;
+}
+
+.aboutcontent{
+
+
+    position: relative;
+
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    grid-auto-rows: (10vmin, auto);
+    align-items: center;
+    justify-content: center;
+
+
+
+}
+
+
+.abouttext{
+    grid-column: 1/2;
+    grid-row: 1;
+    color: var(--text-col);
+    text-align: left;   
+    margin-left: 10%;
+    background-color: var(--bg-col);
+    width: 100%;
+    border-radius: 25px;
+    margin-right: 50%;
+}
+
+.aboutint{
+    font-size: 3vmin;
+    margin-left: 1vmin;
+    border-bottom: 5px solid;
+    margin-right: 1vmin;
+}
+
+.aboutpara{
+    font-size: 2vmin;
+    padding: 1vmin;
+    margin-left: 2vmin;
+    margin-right: 2vmin;
+    
+    width: 43.5vmin;
+    height: 30vmin;
+    
+>>>>>>> f50820a0fcbfadba3e3695fd2d2c06eb4cbc3845
 }
 
 
@@ -125,6 +204,7 @@
     transform: skewY(11deg);
     
     z-index: 1;
+<<<<<<< HEAD
 }
 
 .socials2{
@@ -135,4 +215,6 @@
     padding: 10px;
     width: 7vmin;
     height: 7vmin;
+=======
+>>>>>>> f50820a0fcbfadba3e3695fd2d2c06eb4cbc3845
 }
