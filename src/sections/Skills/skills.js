@@ -18,7 +18,6 @@ function Skills() {
 
           <div className='portcontainer'>
         
-<<<<<<< HEAD
             <div className='fullbgright'>
                 <div>
                     <h2 className='maintitle' id='portfolio'>Technical Skills</h2>
@@ -109,11 +108,6 @@ function Skills() {
 
 
               {/*
-=======
-        <div className='fullbgright'>
-          <div>
-              <h2 className='maintitle' id='portfolio'>Technical Skills</h2>
->>>>>>> f50820a0fcbfadba3e3695fd2d2c06eb4cbc3845
               <div className='portcontent'>
                 <div className='skillslist'>
               <h3 style={{borderBottom: 'solid'}}>Cybersecurity skills</h3>
@@ -184,7 +178,6 @@ function Skills() {
 
 
               </div>
-<<<<<<< HEAD
                */}
 
 
@@ -195,24 +188,13 @@ function Skills() {
           <div className='floorbgright'/>
           
           </div>
-=======
-          </div>
-          </div>
-
-          <div className='floorbgright'/>
-      </div>
->>>>>>> f50820a0fcbfadba3e3695fd2d2c06eb4cbc3845
 
 
 
 
         </div>
-<<<<<<< HEAD
         </div>
       
-=======
-      </div>
->>>>>>> f50820a0fcbfadba3e3695fd2d2c06eb4cbc3845
       </>
     );
   }

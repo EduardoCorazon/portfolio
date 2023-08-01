@@ -5,11 +5,7 @@
     -webkit-box-align: center;
     /*align-items: center;*/
     min-height: 550px;
-<<<<<<< HEAD
     height: calc(210vh - 60px);
-=======
-    height: calc(170vh - 60px);
->>>>>>> f50820a0fcbfadba3e3695fd2d2c06eb4cbc3845
     position: relative;
     
     
@@ -21,11 +17,7 @@
     
     transform: skewY(11deg);
     width: 100%;
-<<<<<<< HEAD
     height: 135vmin;
-=======
-    height: 95vmin;
->>>>>>> f50820a0fcbfadba3e3695fd2d2c06eb4cbc3845
     margin-right: 0;
     position: absolute;
     color: transparent;
@@ -38,11 +30,7 @@
 .floorbgleft{
     background-image: linear-gradient(45deg, #6303B1, #ff0099);
     background: var(--bg-col);
-<<<<<<< HEAD
     top: 135vmin;
-=======
-    top: 95vmin;
->>>>>>> f50820a0fcbfadba3e3695fd2d2c06eb4cbc3845
     width: 100%;
     height: 23vmin;
     margin-right: 0;
@@ -72,19 +60,14 @@
     border-radius: 24px;
 }
 
-<<<<<<< HEAD
 
 .AWSCloudCaptain{
-=======
-.homeserver{
->>>>>>> f50820a0fcbfadba3e3695fd2d2c06eb4cbc3845
     grid-column: 1/2;
     grid-row: 1;
     color: var(--text-col);
     text-align: center;
     font-size: 2vmin;
     border: var(--text-col) solid;
-<<<<<<< HEAD
     border-radius: 25px;  
 }
 
@@ -119,11 +102,6 @@
     border-radius: 25px;   
 
 }
-=======
-    border-radius: 25px;   
-}
-
->>>>>>> f50820a0fcbfadba3e3695fd2d2c06eb4cbc3845
 .seedingproj{
     grid-column: 2/2;
     grid-row: 1;
@@ -134,19 +112,6 @@
     border-radius: 25px;   
 }
 
-<<<<<<< HEAD
-=======
-.smart{
-    grid-column: 1/2;
-    grid-row: 2;
-    color: var(--text-col);
-    text-align: center;
-    font-size: 2vmin;
-    border: var(--text-col) solid;
-    border-radius: 25px;   
-
-}
->>>>>>> f50820a0fcbfadba3e3695fd2d2c06eb4cbc3845
 
 .workexperience{
     grid-column: 2/2;
@@ -169,11 +134,7 @@
 }
 .unilog{
     grid-column: 2/2;
-<<<<<<< HEAD
     grid-row: 4;
-=======
-    grid-row: 3;
->>>>>>> f50820a0fcbfadba3e3695fd2d2c06eb4cbc3845
     color: var(--text-col);
     text-align: center;
     font-size: 2vmin;
